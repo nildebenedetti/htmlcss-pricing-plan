@@ -12,13 +12,21 @@ body {
     margin:30px;
 }
 
-.header-title: {
-    letter-spacing:4px;
-}
-
-.header-text, .buttons {
+/* Utilities */
+.light-font {
         font-size: 12px;
         color: gray;
+}
+
+.d-flex {
+    display: flex;
+}
+
+
+/* Header */
+
+.header-title: {
+    letter-spacing:4px;
 }
 
 .buttons {
@@ -26,3 +34,50 @@ body {
    padding:15px 0;
 }
 
+/* Plan Cards*/
+
+.plan-size {
+    font-weight: 600;
+}
+
+
+.plan-card {
+    padding:20px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}   
+
+ul {
+    list-style: none;
+}
+
+.pricing {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.price {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.mo {
+    font-weight: 100;
+}
+
+span.text, span.offer {
+    color:black;
+}
+
+.saving {
+    justify-content:center;
+    gap:5px;
+    align-items:baseline;
+    padding:15px 0;
+}
+
+.offer {
+    border-radius: 5px;
+    background-color: #E3E3E3;
+    padding: 5px;
+}
