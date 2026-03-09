@@ -12,7 +12,18 @@ body {
     margin:30px;
 }
 
+/* Variabili */
+
+: root {
+    --col-n: 3;
+    --col-gap: 30px;
+}
+    
+
 /* Utilities */
+
+
+
 .light-font {
         font-size: 12px;
         color: gray;
@@ -104,10 +115,29 @@ span.text, span.offer {
 }
 
 .choose-plan {
-    padding: 15px 80px;
+    padding: 15px 15px;
     border-radius: 10px;
     border: 0;
     color: white;
     background-color: #6500FF;
     font-weight: 700;
+    width:100%
 }
+
+/* sistemiamo il layout con flex */
+
+.row {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   column-gap: 30px;
+}
+
+.plan-card {
+    min-width: 354px;
+    flex-shrink:0;
+    flex-grow: 1;
+    flex-basis: calc((100% / 3) - (30px * 2) / 3);
+}
+
+/* metto due colonne alla terza card */
