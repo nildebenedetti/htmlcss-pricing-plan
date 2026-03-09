@@ -60,7 +60,7 @@ ul {
     padding-top: 20px;
 }
 
-.price {
+.p-basic {
     font-size: 40px;
     font-weight: 800;
     position:relative;
@@ -68,7 +68,7 @@ ul {
 
 /* voglio usare ::before */
 
-.price::before {
+.p-basic::before {
  content: "$";
     position: absolute;
     left: -20px;
