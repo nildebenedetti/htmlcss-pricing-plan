@@ -43,6 +43,7 @@ sistemiamo il layout con flex */
    flex-wrap: wrap;
    justify-content: center;
    column-gap: 30px;
+   row-gap:20px;
 }
 
 .plan-card {
