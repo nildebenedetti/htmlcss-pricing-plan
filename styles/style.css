@@ -49,11 +49,15 @@ body {
 
 ul {
     list-style: none;
+    padding-top: 15px;
+    padding-left: 30px;
+    line-height: 2;
+    font-weight: 100;
 }
 
 .pricing {
     text-align: center;
-    padding: 20px 0;
+    padding-top: 20px;
 }
 
 .price {
@@ -80,4 +84,17 @@ span.text, span.offer {
     border-radius: 5px;
     background-color: #E3E3E3;
     padding: 5px;
+}
+
+.button {
+    justify-content: center;
+}
+
+.choose-plan {
+    padding: 15px 80px;
+    border-radius: 10px;
+    border: 0;
+    color: white;
+    background-color: #6500FF;
+    font-weight: 700;
 }
