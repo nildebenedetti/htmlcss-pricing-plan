@@ -141,3 +141,15 @@ span.text, span.offer {
 }
 
 /* metto due colonne alla terza card */
+
+.f-ultimate {
+    display: flex;
+    flex-direction: row;
+   align-items: stretch;
+   column-gap: 20px;
+}
+
+.inner-row {
+    flex-wrap: nowrap;
+    flex-basis: calc((100% / 2) - (20px * 1) / 2);
+}
