@@ -167,10 +167,19 @@ span.text, span.offer {
     padding: 15px 15px;
     border-radius: 10px;
     border: 0;
-    color: white;
-    background-color: #6500FF;
+    
     font-weight: 700;
     width:100%
+}
+
+.even {
+    color: white;
+    background-color: #6500FF;
+}
+
+.uneven {
+    color:black;
+    background-color: white;
 }
 
 .feature-list {
