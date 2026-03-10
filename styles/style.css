@@ -12,7 +12,11 @@ body {
     margin:30px;
 }
 
-/* Variabili */
+/* Variabili 
+Non le ho usate poi nella formula perchè anche se scritta 
+giusta (i.e. verificata con GEMINI) il browser non la leggeva
+però le ho capite e provato a usarle */
+
 
 : root {
     --col-n: 3;
